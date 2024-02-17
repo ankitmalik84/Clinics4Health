@@ -1,0 +1,168 @@
+// AboutUs.js
+import React from "react";
+import "../Styles/AboutUs.css";
+import AboutHead from "../Components/AboutHead";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faBook,
+  faBrain,
+  faDollar,
+  faHouse,
+  faPeopleGroup,
+  faPhone,
+  faPlaneDeparture,
+  faProjectDiagram,
+} from "@fortawesome/free-solid-svg-icons";
+import { useNavigate } from "react-router-dom";
+import Members from "../Components/Members";
+import Coursel from "../Components/Coursel";
+function AboutUs() {
+  const navigate = useNavigate();
+  const handleServiceClick = () => {
+    navigate("/services");
+  };
+  return (
+    <div className="AboutUs">
+      <div className="ab-head">
+        <AboutHead />
+      </div>
+      {/* Your additional content */}
+      <div className="ab-main-content">
+        <div className="ab-second-left">
+          <h2>About Us</h2>
+          <h1>We Are Leading International Company In The World</h1>
+          <p>
+            Two business partners had a vision of creating holistic services
+            that help improve medical billing operations. They started by
+            listening to doctors and building a service model around what
+            doctors need the most.
+          </p>
+          <p>
+            GaurdianRCM is a global service company focused on delivering
+            awesome customer experiences for its clients. With our focus on
+            continuous innovation, out-of-the-box solutions, and being enablers
+            for our customers, we find the missing ‘X’ that propels us as
+            partners towards ‘Xponential’ growth.
+          </p>
+          <button
+            className="text-service-btn"
+            type="button"
+            onClick={handleServiceClick}
+            data-aos="zoom-in"
+            data-aos-duration="300"
+            data-aos-easing="ease-in-out"
+          >
+            <FontAwesomeIcon icon={faPhone} /> Our Services
+          </button>
+        </div>
+        <div className="ab-second-right">
+          <h2
+            data-aos="zoom-in"
+            data-aos-duration="300"
+            data-aos-easing="ease-in-out"
+          >
+            Building Trust with Emotions & Innovation
+          </h2>
+          <div
+            className="style-text"
+            data-aos="zoom-in"
+            data-aos-duration="300"
+            data-aos-easing="ease-in-out"
+          >
+            <div className="sub-head">
+              <div className="Icon">
+                <FontAwesomeIcon icon={faHouse} />
+              </div>
+              <h2>Core Value</h2>
+            </div>
+            <p>
+              At the heart of our ethos lies the pursuit of trust, which we
+              endeavor to earn through our unwavering commitment to creativity,
+              tangible outcomes, and unwavering quality.
+            </p>
+          </div>
+          <div
+            className="style-text"
+            data-aos="zoom-in"
+            data-aos-duration="300"
+            data-aos-easing="ease-in-out"
+          >
+            <div className="sub-head">
+              <div className="Icon">
+                <FontAwesomeIcon icon={faPlaneDeparture} />
+              </div>
+              <h2>Approach</h2>
+            </div>
+            <p>
+              We adopt a conscientious approach that enables us to achieve
+              optimal results through smart decision-making.
+            </p>
+          </div>
+          <div
+            className="style-text"
+            data-aos="zoom-in"
+            data-aos-duration="300"
+            data-aos-easing="ease-in-out"
+          >
+            <div className="sub-head">
+              <div className="Icon">
+                <FontAwesomeIcon icon={faBrain} />
+              </div>
+              <h2>Philosophy</h2>
+            </div>
+            <p>
+              Our focus is on improving our business practices and enhancing our
+              engagement with our customers.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="ab-third">
+        <div className="ab-points">
+          <div className="icon">
+            <FontAwesomeIcon icon={faDollar} />
+          </div>
+          <div className="sup-content">
+            <h3>99.1%</h3>
+            <p>Satisfaction in Services</p>
+          </div>
+        </div>
+        <div className="ab-points">
+          <div className="icon">
+            <FontAwesomeIcon icon={faPeopleGroup} />
+          </div>
+          <div className="sup-content">
+            <h3>100+</h3>
+            <p>Collaegues & Counting</p>
+          </div>
+        </div>
+        <div className="ab-points">
+          <div className="icon">
+            <FontAwesomeIcon icon={faProjectDiagram} />
+          </div>
+          <div className="sup-content">
+            <h3>30+</h3>
+            <p>Successfully Project</p>
+          </div>
+        </div>
+        <div className="ab-points">
+          <div className="icon">
+            <FontAwesomeIcon icon={faBook} />
+          </div>
+          <div className="sup-content">
+            <h3>02+</h3>
+            <p>Year of experience</p>
+          </div>
+        </div>
+      </div>
+      <div className="ab-fourth">
+        <Members />
+      </div>
+      <div className="ab-fifth">
+        <Coursel />
+      </div>
+    </div>
+  );
+}
+
+export default AboutUs;
