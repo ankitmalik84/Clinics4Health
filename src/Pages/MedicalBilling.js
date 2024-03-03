@@ -660,7 +660,7 @@ function MedicalBilling() {
           Why Choose Clinics4Health for Medical Billing & Coding Services?
         </h2>
         <p>
-          Outsourcing medical billing and coding services to GaurdianRCM can
+          Outsourcing medical billing and coding services to Clincs4Health can
           give you access to a series of benefits which you can take advantage
           of. Some of the key reasons for you to choose us include –
         </p>
@@ -918,13 +918,14 @@ function MedicalBilling() {
           data-aos-easing="ease-in-out"
         >
           Outsourcing medical billing and coding to skilled offshore service
-          providers like GaurdianRCM can help you avail all the above-mentioned
-          benefits without any hassles. As our customer, your medical facility
-          can get access to quality medical coding and billing, while reducing
-          your current operating costs by at least 40%. Our end-to-end medical
-          billing and coding solutions can meet all your needs, from following
-          up on pending medical claims, to getting reasons for denied claims,
-          tracking receivable balances, or initiating collections.
+          providers like Clincs4Health can help you avail all the
+          above-mentioned benefits without any hassles. As our customer, your
+          medical facility can get access to quality medical coding and billing,
+          while reducing your current operating costs by at least 40%. Our
+          end-to-end medical billing and coding solutions can meet all your
+          needs, from following up on pending medical claims, to getting reasons
+          for denied claims, tracking receivable balances, or initiating
+          collections.
         </p>
         <br />
         <p

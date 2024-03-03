@@ -2,6 +2,7 @@
 import React from "react";
 import "../Styles/AboutUs.css";
 import AboutHead from "../Components/AboutHead";
+import About from "../Components/About";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBook,
@@ -16,10 +17,11 @@ import {
 import { useNavigate } from "react-router-dom";
 import Members from "../Components/Members";
 import Coursel from "../Components/Coursel";
+import ContactForm from "../Components/ContactUs";
 function AboutUs() {
   const navigate = useNavigate();
   const handleServiceClick = () => {
-    navigate("/services");
+    navigate("/solutions");
   };
   return (
     <div className="AboutUs">
@@ -38,7 +40,7 @@ function AboutUs() {
             doctors need the most.
           </p>
           <p>
-            GaurdianRCM is a global service company focused on delivering
+            Clinics4Health is a global service company focused on delivering
             awesome customer experiences for its clients. With our focus on
             continuous innovation, out-of-the-box solutions, and being enablers
             for our customers, we find the missing ‘X’ that propels us as
@@ -155,12 +157,14 @@ function AboutUs() {
           </div>
         </div>
       </div>
+      <About />
       <div className="ab-fourth">
         <Members />
       </div>
       <div className="ab-fifth">
         <Coursel />
       </div>
+      <ContactForm title="Contact Us Clinics4Health At Below" />
     </div>
   );
 }

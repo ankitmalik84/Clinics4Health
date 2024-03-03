@@ -17,7 +17,7 @@ function Home() {
     <div className="home-section" style={{ width: "100%", overflow: "hidden" }}>
       <Hero />
       <Info />
-      <About />
+      {/* <About /> */}
       <BookAppointment />
       <Leadings />
       <Reviews />
@@ -160,7 +160,7 @@ function Home() {
         <InfoCard
           image={v2}
           title="Mission"
-          description="We improve the financial life of our provider, giving them the freedom to focus on patient care. To be leaders in Cloud Based Healthcare Solutions in Healthcare Make GaurdianRCM the most Customer Friendly Company To help hospitals to make society a better place to live by improving healthcare delivery to patients"
+          description="We improve the financial life of our provider, giving them the freedom to focus on patient care. To be leaders in Cloud Based Healthcare Solutions in Healthcare Make Clinics4Health the most Customer Friendly Company To help hospitals to make society a better place to live by improving healthcare delivery to patients"
         />
         <InfoCard
           image={v3}
@@ -168,7 +168,6 @@ function Home() {
           description="As healthcare organization,We are committed to providing the best possible care to its patients and keeping the best RCM services in place makes it easier to fulfil those commitments. The healthcare Clinics4Health services provided by Practolytics are customized to meet your unique clinical requirement."
         />
       </div>
-      <Members />
     </div>
   );
 }

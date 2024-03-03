@@ -18,11 +18,10 @@ function Contact() {
       </div>
       <MapSection
         heading="India Head Office"
-        heading2="Address: T4 B 905 NX ONE TECHZONE Sector 04, Gr. Noida West (UP)
-            201308"
+        heading2="Address: Tower 4 B 905 NX ONE TECHZONE SECTOR 4 GREATER NOIDA WEST 201308 near gaur mall nearest metro noida sector 52"
         phone="+91 7090666917"
         mail="info@clinics4health.com"
-        map="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7006.989308139461!2d77.30997303888289!3d28.584933823884445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce458ccb0afa5%3A0x6f6a3dc21c831e29!2sSector%202%2C%20Noida%2C%20Uttar%20Pradesh%20201301!5e0!3m2!1sen!2sin!4v1707844071794!5m2!1sen!2sin"
+        map="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.952202139976!2d77.4348672!3d28.6012107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cefbd1a3630c9%3A0x7d9c0f1be01d83de!2sNX-ONE%20AVENUE%2C%20GATE%20NO%201!5e0!3m2!1sen!2sin!4v1709471903719!5m2!1sen!2sin"
       />
       <div className="dotted-line"></div>
       <MapSection

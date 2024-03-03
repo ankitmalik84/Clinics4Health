@@ -33,7 +33,7 @@ function Info() {
           Revenue Cycle Management disciplines that take your valuable time away
           from the patient. The size of the organization does not matter –
           whether you’re a medical billing company or healthcare system,
-          GaurdianRCM’s best practice engine and unique solutions will elevate
+          Clinics4Health best practice engine and unique solutions will elevate
           your revenue cycle to the next level.
         </p>
       </div>
@@ -42,7 +42,7 @@ function Info() {
         <InfoCard
           title="Revenue Cycle Management"
           image={c1}
-          description="Get the full payment that you’ve earned with revenue cycle management solutions from GaurdianRCM. Our revenue cycle technologies cover the breadth of revenue cycle management, while the Our medical billing & coding team with certified coders allows your staff to focus on patients."
+          description="Get the full payment that you’ve earned with revenue cycle management solutions from Clinics4Health. Our revenue cycle technologies cover the breadth of revenue cycle management, while the Our medical billing & coding team with certified coders allows your staff to focus on patients."
           // icon={faTruckMedical}
         />
         <InfoCard
@@ -67,7 +67,7 @@ function Info() {
         <InfoCard
           title="Payment Posting services"
           image={c5}
-          description="Payment posting is a vital step in the medical billing process, as it helps healthcare providers manage their revenue cycle effectively. Our payment posting services ensure that every patient's payment is accurately recorded, reducing overall costs for healthcare providers. GaurdianRCM can manage this entire process for you. Not only do we take away the headaches, we also deliver superior performance across many parameters such as higher accuracy, productivity and significant reduction in denials."
+          description="Payment posting is a vital step in the medical billing process, as it helps healthcare providers manage their revenue cycle effectively. Our payment posting services ensure that every patient's payment is accurately recorded, reducing overall costs for healthcare providers. Clinics4Health can manage this entire process for you. Not only do we take away the headaches, we also deliver superior performance across many parameters such as higher accuracy, productivity and significant reduction in denials."
           // icon={faTruckMedical}
         />
 

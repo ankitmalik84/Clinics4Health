@@ -20,6 +20,9 @@ function Hero() {
   const handleBookAppointmentClick = () => {
     navigate("/contact");
   };
+  const handleServiceButtonClick = () => {
+    navigate("/solutions");
+  };
 
   useEffect(() => {
     const onPageScroll = () => {
@@ -46,7 +49,7 @@ function Hero() {
             data-aos-duration="500"
             data-aos-easing="ease-in-out"
           >
-            BUILD YOUR DREAM WITH GAURDIAN RCM
+            BUILD YOUR DREAM WITH Clinics4Health
           </p>
           <h2 className="text-title">VISION GOT LARGER</h2>
           <p
@@ -55,17 +58,17 @@ function Hero() {
             data-aos-duration="500"
             data-aos-easing="ease-in-out"
           >
-            GaurdianRCM has revenue cycle solutions customized for hospitals,
+            Clinics4Health has revenue cycle solutions customized for hospitals,
             physician practices, vendors and laboratories. The company’s line of
             solutions aims to increase cash flow, maximize productivity and
-            reduce paper processing dependency. GaurdianRCM specializes in
+            reduce paper processing dependency. Clinics4Health specializes in
             electronic transaction management, emergency department business
             services and laboratory revenue cycle management.
           </p>
           <button
             className="text-appointment-btn"
             type="button"
-            onClick={handleBookAppointmentClick}
+            onClick={handleServiceButtonClick}
             data-aos="zoom-in"
             data-aos-duration="300"
             data-aos-easing="ease-in-out"

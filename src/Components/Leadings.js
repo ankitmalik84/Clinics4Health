@@ -1,7 +1,7 @@
 import React from "react";
 import LeadCard from "./LeadCard";
 import profile1 from "../Assets/m1.jpg";
-import profile2 from "../Assets/m2.jpg";
+import profile2 from "../Assets/m2.png";
 import "../Styles/Leadings.css";
 
 function Leadings() {
@@ -30,8 +30,8 @@ function Leadings() {
         />
         <LeadCard
           img={profile2}
-          name="Sam Mathur"
-          title="Chief Strategy and Product Officer"
+          name="Rahul Soni"
+          title="India Operations Head  . . . . . .  .  . . . .    . "
         />
       </div>
     </div>

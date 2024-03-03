@@ -443,8 +443,8 @@ const FAQs = () => {
           </p>
           <li>
             <h2>
-              Why should I choose GaurdianRCM Solutions to outsource healthcare
-              BPO services?
+              Why should I choose Clincs4Health Solutions to outsource
+              healthcare BPO services?
             </h2>
           </li>
           <p
@@ -452,7 +452,7 @@ const FAQs = () => {
             data-aos-duration="500"
             data-aos-easing="ease-in-out"
           >
-            Partnering with GaurdianRCM Solutions comes with a range of
+            Partnering with Clincs4Health Solutions comes with a range of
             benefits:
           </p>
           <ul>

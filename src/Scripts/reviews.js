@@ -3,7 +3,7 @@ export const customerReviews = [
     name: "Stacy",
     location: "Medical practitioner",
     message:
-      "The team at Guardian Clinics4Health have been great partners to my billing company. They understand the US healthcare system and the specific needs of working with multiple clients and different states. The leadership of Tej was valuable to me personally while trying to navigate a large client change and I appreciate all of the extra work that he did to ensure that we were well taken care of. I highly recommend this group.",
+      "The team at Clinics4Health have been great partners to my billing company. They understand the US healthcare system and the specific needs of working with multiple clients and different states. The leadership of Tej was valuable to me personally while trying to navigate a large client change and I appreciate all of the extra work that he did to ensure that we were well taken care of. I highly recommend this group.",
   },
   {
     name: "John Doe",

@@ -40,13 +40,13 @@ function Reviews() {
               physician groups’ biggest challenges.
             </h2>
             <h3>
-              Your GaurdianRCM Client Services team can help you with specific
-              revenue cycle challenges or conduct a complete revenue cycle audit
-              to identify inefficiencies in your current RCM systems. Plug into
-              our proprietary intelligent automation and expert services
-              capabilities to reduce denials, improve revenue capture, boost
-              staff productivity, eliminate outdated processes, and put an end
-              to revenue leakage.
+              Your Clinics4Health Client Services team can help you with
+              specific revenue cycle challenges or conduct a complete revenue
+              cycle audit to identify inefficiencies in your current
+              Clinics4Health systems. Plug into our proprietary intelligent
+              automation and expert services capabilities to reduce denials,
+              improve revenue capture, boost staff productivity, eliminate
+              outdated processes, and put an end to revenue leakage.
             </h3>
           </div>
         </div>

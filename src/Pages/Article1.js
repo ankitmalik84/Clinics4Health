@@ -264,7 +264,7 @@ function Article1() {
               data-aos-easing="ease-in-out"
             >
               Outsource medical billing and medical coding services to
-              GaurdianRcm and get access to proficient medical billing and
+              Clinics4Health and get access to proficient medical billing and
               coding services.
             </p>
           </div>

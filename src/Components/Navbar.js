@@ -18,15 +18,6 @@ function Navbar() {
     setNav(!nav);
   };
 
-  // const handleChatBtnClick = () => {
-  //   if (!isButtonDisabled) {
-  //     toast.info("Experiencing high traffic, Please wait a moment.", {
-  //       position: toast.POSITION.TOP_CENTER,
-  //       onOpen: () => setIsButtonDisabled(true),
-  //       onClose: () => setIsButtonDisabled(false),
-  //     });
-  //   }
-  // };
   const [showSubnav, setShowSubnav] = useState(false);
   const [showSubnav1, setShowSubnav1] = useState(false);
 
@@ -133,17 +124,6 @@ function Navbar() {
           </a>
         </li>
       </ul>
-
-      {/* <button
-        className="navbar-btn"
-        type="button"
-        disabled={isButtonDisabled}
-        onClick={handleChatBtnClick}
-      >
-        <FontAwesomeIcon icon={faCommentDots} /> Live Chat
-      </button> */}
-
-      {/* Mobile */}
       <div className={`mobile-navbar ${nav ? "open-nav" : ""}`}>
         <div onClick={openNav} className="mobile-navbar-close">
           <FontAwesomeIcon icon={faXmark} className="hamb-icon" />

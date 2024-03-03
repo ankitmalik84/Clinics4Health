@@ -1,11 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "../Styles/ContactUs.css";
 import { ToastContainer, toast } from "react-toastify";
+import emailjs from "@emailjs/browser";
 
 function ContactForm(props) {
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
-  });
+  }, []);
 
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
@@ -14,7 +15,7 @@ function ContactForm(props) {
   const [Message, setMessage] = useState("");
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [formErrors, setFormErrors] = useState({});
-
+  const form = useRef();
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -41,6 +42,23 @@ function ContactForm(props) {
       setFormErrors(errors);
       return;
     }
+    emailjs
+      .sendForm("service_4g8azvj", "template_i4o2rqc", form.current, {
+        publicKey: "v7pZYJu-ICm2PL9zl",
+      })
+      .then(
+        () => {
+          console.log("SUCCESS!");
+          toast.success("Details Has been sent !", {
+            position: toast.POSITION.TOP_CENTER,
+            onOpen: () => setIsSubmitted(true),
+            onClose: () => setIsSubmitted(false),
+          });
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
 
     // Reset form fields and errors after successful submission
     setFirstName("");
@@ -49,12 +67,6 @@ function ContactForm(props) {
     setPhoneNumber("");
     setMessage("");
     setFormErrors({});
-
-    toast.success("Details Has been sent !", {
-      position: toast.POSITION.TOP_CENTER,
-      onOpen: () => setIsSubmitted(true),
-      onClose: () => setIsSubmitted(false),
-    });
   };
 
   return (
@@ -63,12 +75,13 @@ function ContactForm(props) {
         <span>{props.title}</span>
       </h2>
 
-      <form className="form-content" onSubmit={handleSubmit}>
+      <form ref={form} className="form-content" onSubmit={handleSubmit}>
         <label>
           First Name:
           <input
             type="text"
             value={firstName}
+            name="first_name"
             onChange={(e) => setFirstName(e.target.value)}
             required
           />
@@ -82,6 +95,7 @@ function ContactForm(props) {
           Last Name:
           <input
             type="text"
+            name="last_name"
             value={lastName}
             onChange={(e) => setLastName(e.target.value)}
             required
@@ -95,6 +109,7 @@ function ContactForm(props) {
           Phone Number:
           <input
             type="text"
+            name="phone"
             value={phoneNumber}
             onChange={(e) => setPhoneNumber(e.target.value)}
             required
@@ -108,6 +123,7 @@ function ContactForm(props) {
           Email:
           <input
             type="email"
+            name="email"
             value={Email}
             onChange={(e) => setEmail(e.target.value)}
             required
@@ -122,6 +138,7 @@ function ContactForm(props) {
           <input
             type="textarea"
             className="messageBox"
+            name="message"
             value={Message}
             onChange={(e) => setMessage(e.target.value)}
             required

@@ -41,17 +41,17 @@ function About() {
 
         <SolutionStep
           title="Enhanced Infrastructure"
-          description="GaurdianRCM has the infrastructural capacity and the expertise to avoid unnecessary disruptions that mostly occur due to regulatory changes or unforeseen errors. With our help, you can always bank on achieving the best possible results, while leveraging our state-of-the-art infrastructure and web-ready interfaces to achieve better operational flexibility"
+          description="Clinics4Health has the infrastructural capacity and the expertise to avoid unnecessary disruptions that mostly occur due to regulatory changes or unforeseen errors. With our help, you can always bank on achieving the best possible results, while leveraging our state-of-the-art infrastructure and web-ready interfaces to achieve better operational flexibility"
         />
 
         <SolutionStep
           title="Stringent Data Privacy"
-          description="GaurdianRCM is an ISO certified company and is also 100% HIPAA compliant. We always remain within the regulatory guidelines and ensure that at each step of the way, our client is apprised of compliance issues, if any. We have strict protocols in place to safeguard all business-specific information and customer information."
+          description="Clinics4Health is an ISO certified company and is also 100% HIPAA compliant. We always remain within the regulatory guidelines and ensure that at each step of the way, our client is apprised of compliance issues, if any. We have strict protocols in place to safeguard all business-specific information and customer information."
         />
 
         <SolutionStep
           title="Higher Competency"
-          description="Most healthcare organizations face exceptional challenges when it comes to training, implementation, and adjusting to the learning curve of a revenue cycle system. With the help of RCM, we can help our clients streamline the process by utilizing our team of exceptional medical billing experts and project managers who double up as your solution architects as well."
+          description="Most healthcare organizations face exceptional challenges when it comes to training, implementation, and adjusting to the learning curve of a revenue cycle system. With the help of Clinics4Health, we can help our clients streamline the process by utilizing our team of exceptional medical billing experts and project managers who double up as your solution architects as well."
         />
       </div>
     </div>

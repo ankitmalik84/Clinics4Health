@@ -76,21 +76,28 @@ function Footer() {
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
             >
-              <Link to={"/legal"}>T4 B 905</Link>
+              <Link to={"/legal"}>Tower 4 B 905 </Link>
+            </li>
+            {/* <li
+              data-aos="flip-up"
+              data-aos-duration="500"
+              data-aos-easing="ease-in-out"
+            >
+              <Link to={"/legal"}>E</Link>
+            </li> */}
+            <li
+              data-aos="flip-up"
+              data-aos-duration="500"
+              data-aos-easing="ease-in-out"
+            >
+              <Link to={"/legal"}>NX ONE TECHZON </Link>
             </li>
             <li
               data-aos="flip-up"
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
             >
-              <Link to={"/legal"}>NX 1 TECHZONE</Link>
-            </li>
-            <li
-              data-aos="flip-up"
-              data-aos-duration="500"
-              data-aos-easing="ease-in-out"
-            >
-              <Link to={"/legal"}>Sector 04, Gr. Noida West</Link>
+              <Link to={"/legal"}>SECTOR 4 GREATER NOIDA WEST</Link>
             </li>
             <li
               data-aos="flip-up"
@@ -99,13 +106,6 @@ function Footer() {
             >
               <Link to={"/legal"}>(UP)201308</Link>
             </li>
-            {/* <li
-              data-aos="flip-up"
-              data-aos-duration="500"
-              data-aos-easing="ease-in-out"
-            >
-              <Link to={"/legal"}>How it Works</Link>
-            </li> */}
           </ul>
         </div>
         <div className="ft-list">
@@ -139,13 +139,6 @@ function Footer() {
             >
               <Link to={"/legal"}>USA</Link>
             </li>
-            {/* <li
-              data-aos="flip-up"
-              data-aos-duration="500"
-              data-aos-easing="ease-in-out"
-            >
-              <Link to={"/legal"}>How it Works</Link>
-            </li> */}
           </ul>
         </div>
 
@@ -158,20 +151,18 @@ function Footer() {
             data-aos-easing="ease-in-out"
           >
             <li>
-              <a href="mailto:info@clinics4health.com">
-                info@clinics4health.com
-              </a>
+              <a href="mailto:Hr@clinics4health.com">Hr@clinics4health.com</a>
             </li>
             <li>
-              <a href="mailto:info@clinics4health.com">
-                info@clinics4health.com
+              <a href="mailto:Info@clinics4health.com">
+                Info@clinics4health.com
               </a>
             </li>
             <li>
               <a href="tel:+1 (307)222-3706">+1 (307)222-3706</a>
             </li>
             <li>
-              <a href="tel:+91 7090666917">+91 7090666917</a>
+              <a href="tel:01204281796">01204281796</a>
             </li>
           </ul>
         </div>

@@ -41,7 +41,7 @@ function Articles() {
               and coding program. This training ensures that Indian medical
               coding specialists possess the most up to date industry
               information and produce excellent quality results for overseas
-              customers. At GaurdianRCM our medical coding specialists study
+              customers. At Clinics4Health our medical coding specialists study
               topics …
             </p>
           </div>
@@ -74,7 +74,7 @@ function Articles() {
               and coding program. This training ensures that Indian medical
               coding specialists possess the most up to date industry
               information and produce excellent quality results for overseas
-              customers. At GaurdianRCM our medical coding specialists study
+              customers. At Clinics4Health our medical coding specialists study
               topics …
             </p>
           </div>
