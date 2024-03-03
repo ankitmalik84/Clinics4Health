@@ -22,7 +22,7 @@ function Leadings() {
         </p>
       </div>
 
-      <div className="dt-cards-content">
+      <div className="ld-cards-content">
         <LeadCard
           img={profile1}
           name="Martin Xiu"
