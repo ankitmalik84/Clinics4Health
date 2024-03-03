@@ -2,7 +2,6 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Home from "./Pages/Home";
-import Legal from "./Pages/Legal";
 import NotFound from "./Pages/NotFound";
 import Contact from "./Pages/Contact";
 import Navbar from "./Components/Navbar";
@@ -36,7 +35,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/aboutus" element={<AboutUs />} />
-          <Route path="/legal" element={<Legal />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/testimonials" element={<Testimonial />} />
           <Route path="/solutions" element={<Solutions />} />

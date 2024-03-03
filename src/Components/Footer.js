@@ -35,35 +35,35 @@ function Footer() {
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
             >
-              <a href="#services">Clinics4Health Solutions</a>
+              <a href="/solutions">Clinics4Health Solutions</a>
             </li>
             <li
               data-aos="flip-up"
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
             >
-              <a href="#services">Medical Transcription Services</a>
+              <a href="/medicaltranscription">Medical Transcription Services</a>
             </li>
             <li
               data-aos="flip-up"
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
             >
-              <a href="#services">Medical Billing & Coding</a>
+              <a href="/medicalbilling">Medical Billing & Coding</a>
             </li>
             <li
               data-aos="flip-up"
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
             >
-              <a href="#services">About Us</a>
+              <a href="/aboutus">About Us</a>
             </li>
             <li
               data-aos="flip-up"
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
             >
-              <a href="#services">Privacy Policy</a>
+              <a href="/privacy">Privacy Policy</a>
             </li>
           </ul>
         </div>
@@ -76,7 +76,7 @@ function Footer() {
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
             >
-              <Link to={"/legal"}>Tower 4 B 905 </Link>
+              <Link to={"#"}>Tower 4 B 905 </Link>
             </li>
             {/* <li
               data-aos="flip-up"
@@ -90,21 +90,21 @@ function Footer() {
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
             >
-              <Link to={"/legal"}>NX ONE TECHZON </Link>
+              <Link to={"#"}>NX ONE TECHZON </Link>
             </li>
             <li
               data-aos="flip-up"
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
             >
-              <Link to={"/legal"}>SECTOR 4 GREATER NOIDA WEST</Link>
+              <Link to={"#"}>SECTOR 4 GREATER NOIDA WEST</Link>
             </li>
             <li
               data-aos="flip-up"
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
             >
-              <Link to={"/legal"}>(UP)201308</Link>
+              <Link to={"#"}>(UP)201308</Link>
             </li>
           </ul>
         </div>
@@ -116,28 +116,28 @@ function Footer() {
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
             >
-              <Link to={"/legal"}>30N Gould St.</Link>
+              <Link to={"#"}>30N Gould St.</Link>
             </li>
             <li
               data-aos="flip-up"
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
             >
-              <Link to={"/legal"}>Ste N, Sheridan .</Link>
+              <Link to={"#"}>Ste N, Sheridan .</Link>
             </li>
             <li
               data-aos="flip-up"
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
             >
-              <Link to={"/legal"}>WY 82801,</Link>
+              <Link to={"#"}>WY 82801,</Link>
             </li>
             <li
               data-aos="flip-up"
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
             >
-              <Link to={"/legal"}>USA</Link>
+              <Link to={"#"}>USA</Link>
             </li>
           </ul>
         </div>
@@ -174,7 +174,7 @@ function Footer() {
         <ul className="ft-social-links">
           <li>
             <a
-              href="https://linkedin.com/in//"
+              href="#"
               title="LinkedIn"
               target="_blank"
               rel="noopener noreferrer"
@@ -191,7 +191,7 @@ function Footer() {
 
           <li>
             <a
-              href="https://facebook.com/"
+              href="#"
               title="FaceBook"
               target="_blank"
               rel="noopener noreferrer"
@@ -208,7 +208,7 @@ function Footer() {
 
           <li>
             <a
-              href="https://x.com/"
+              href="#"
               title="Twitter"
               target="_blank"
               rel="noopener noreferrer"
