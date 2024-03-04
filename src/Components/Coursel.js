@@ -23,7 +23,10 @@ function Coursel() {
 
     const startScrolling = () => {
       intervalId = setInterval(() => {
-        if (list) {
+        if (list.scrollLeft + list.clientWidth >= list.scrollWidth) {
+          // If we've reached the end, reset the scroll position to the start
+          list.scrollLeft = 0;
+        } else {
           list.scrollTo({
             left: list.scrollLeft + list.clientWidth,
             behavior: "smooth",
