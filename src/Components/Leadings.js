@@ -29,9 +29,10 @@ function Leadings() {
           title="Chief Executive Officer and Board Member"
         />
         <LeadCard
+          className="leadcard-2"
           img={profile2}
           name="Rahul Soni"
-          title="India Operations Head  . . . . . .  .  . . . .    . "
+          title="India Operations Heads"
         />
       </div>
     </div>

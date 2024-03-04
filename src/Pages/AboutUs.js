@@ -10,7 +10,6 @@ import {
   faDollar,
   faHouse,
   faPeopleGroup,
-  faPhone,
   faPlaneDeparture,
   faProjectDiagram,
 } from "@fortawesome/free-solid-svg-icons";
@@ -54,7 +53,7 @@ function AboutUs() {
             data-aos-duration="300"
             data-aos-easing="ease-in-out"
           >
-            <FontAwesomeIcon icon={faPhone} /> Our Services
+            Our Services
           </button>
         </div>
         <div className="ab-second-right">

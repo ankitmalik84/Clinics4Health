@@ -1,6 +1,7 @@
 import React from "react";
 import MemberCard from "./MemberCard";
 import profile1 from "../Assets/m2.png";
+import profile2 from "../Assets/m1.jpg";
 import "../Styles/Members.css";
 
 function Members() {
@@ -29,6 +30,11 @@ function Members() {
           img={profile1}
           name="Rahul Soni"
           title="India Operations Head"
+        />
+        <MemberCard
+          img={profile2}
+          name="Martin Xiu"
+          title="Chief Executive Officer and Board Member"
         />
       </div>
     </div>

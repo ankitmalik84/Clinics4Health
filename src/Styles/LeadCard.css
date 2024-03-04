@@ -60,6 +60,7 @@
 }
 
 .caption {
+  height: 54px;
   margin: -12px 0 22px;
   color: #494949;
   font-family: "Poppins", sans-serif;

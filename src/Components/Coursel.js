@@ -1,4 +1,3 @@
-// Coursel.js
 import React, { useEffect, useRef } from "react";
 import "../Styles/Coursel.css";
 import img1 from "../Assets/Athena-Health.png";
@@ -15,22 +14,25 @@ function Coursel() {
   useEffect(() => {
     const list = listRef.current;
 
-    const intervalId = setInterval(() => {
-      if (list) {
-        list.scrollTo({
-          left: list.scrollLeft + list.clientWidth,
-          behavior: "smooth",
-        });
+    // Clone the list items for infinite scrolling effect
+    const originalItems = list.children;
+    const clonedItems = [...originalItems].map((item) => item.cloneNode(true));
+    clonedItems.forEach((item) => list.appendChild(item));
 
-        // If we have reached the end of the list, scroll back to the beginning
-        if (list.scrollLeft + list.clientWidth >= list.scrollWidth) {
+    let intervalId;
+
+    const startScrolling = () => {
+      intervalId = setInterval(() => {
+        if (list) {
           list.scrollTo({
-            left: 0,
+            left: list.scrollLeft + list.clientWidth,
             behavior: "smooth",
           });
         }
-      }
-    }, 3000);
+      }, 3000);
+    };
+
+    startScrolling();
 
     return () => clearInterval(intervalId);
   }, []);

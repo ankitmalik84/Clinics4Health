@@ -1,7 +1,6 @@
 import React from "react";
 import "../Styles/Footer.css";
 import SubscribeNewsletter from "./SubscribeNewsletter";
-import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -76,28 +75,28 @@ function Footer() {
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
             >
-              <Link to={"/"}>Tower 4 B 905 </Link>
+              Tower 4 B 905
             </li>
             <li
               data-aos="flip-up"
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
             >
-              <Link to={"/"}>NX ONE TECHZON </Link>
+              NX ONE TECHZONE
             </li>
             <li
               data-aos="flip-up"
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
             >
-              <Link to={"/"}>SECTOR 4 GREATER NOIDA WEST</Link>
+              SECTOR 4, GREATER NOIDA
             </li>
             <li
               data-aos="flip-up"
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
             >
-              <Link to={"/"}>(UP)201308</Link>
+              WEST 201308
             </li>
           </ul>
         </div>
@@ -109,28 +108,28 @@ function Footer() {
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
             >
-              <Link to={"/"}>30N Gould St.</Link>
+              30N Gould St.
             </li>
             <li
               data-aos="flip-up"
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
             >
-              <Link to={"/"}>Ste N, Sheridan .</Link>
+              Ste N, Sheridan .
             </li>
             <li
               data-aos="flip-up"
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
             >
-              <Link to={"/"}>WY 82801,</Link>
+              WY 82801,
             </li>
             <li
               data-aos="flip-up"
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
             >
-              <Link to={"/"}>USA</Link>
+              USA
             </li>
           </ul>
         </div>
