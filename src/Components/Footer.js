@@ -163,7 +163,7 @@ function Footer() {
       <div className="ft-copyright">
         <p>© 2024-2025 Clinics4Health+. All rights reserved.</p>
 
-        <ul className="ft-social-links">
+        {/* <ul className="ft-social-links">
           <li>
             <a
               href="/"
@@ -214,7 +214,7 @@ function Footer() {
               </svg>
             </a>
           </li>
-        </ul>
+        </ul> */}
       </div>
     </div>
   );
