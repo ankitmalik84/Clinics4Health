@@ -11,9 +11,6 @@ import img7 from "../Assets/drchrono-420x320-20190228.png";
 function Coursel() {
   const listRef = useRef(null);
 
-  const smoothScrollSupported =
-    "scrollBehavior" in document.documentElement.style;
-
   useEffect(() => {
     const list = listRef.current;
 
@@ -30,14 +27,7 @@ function Coursel() {
           // If we've reached the end, reset the scroll position to the start
           list.scrollLeft = 0;
         } else {
-          if (smoothScrollSupported) {
-            list.scrollTo({
-              left: list.scrollLeft + list.clientWidth,
-              behavior: "smooth",
-            });
-          } else {
-            list.scrollLeft += list.clientWidth;
-          }
+          list.scrollLeft += list.clientWidth;
         }
       }, 3000);
     };
