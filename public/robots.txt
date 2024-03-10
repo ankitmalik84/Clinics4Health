@@ -1,2 +1,4 @@
 User-agent: *
 Disallow:
+Allow: /
+sitemap: https://www.clinics4health.com 

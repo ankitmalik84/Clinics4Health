@@ -1,6 +1,6 @@
 {
-  "name": "Clincs4Health",
-  "short_name": "Clincs4Health",
+  "name": "clincs4health",
+  "short_name": "clincs4health",
   "icons": [
     {
       "src": "./android-chrome-192x192.png",
