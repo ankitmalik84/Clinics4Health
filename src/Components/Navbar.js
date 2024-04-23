@@ -173,7 +173,7 @@ function Navbar() {
             </ul>
           </li>
           <li>
-            <a onClick={openNav} href="#reviews">
+            <a onClick={openNav} href="/contact">
               Contact Us
             </a>
           </li>

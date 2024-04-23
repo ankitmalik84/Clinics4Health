@@ -18,19 +18,18 @@ function Contact() {
       </div>
       <MapSection
         heading="India Head Office"
-        heading2="Address: Tower 4 B 905 NX ONE TECHZONE SECTOR 4 GREATER NOIDA WEST 201308 near gaur mall nearest metro noida sector 52"
+        heading2="Address: A141, Sector 02, Noida, India, Pin-201301"
         phone="01204281796"
         mail="info@clinics4health.com"
-        map="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.952202139976!2d77.4348672!3d28.6012107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cefbd1a3630c9%3A0x7d9c0f1be01d83de!2sNX-ONE%20AVENUE%2C%20GATE%20NO%201!5e0!3m2!1sen!2sin!4v1709471903719!5m2!1sen!2sin"
+        map="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7006.989807831562!2d77.30539172669631!3d28.584924152817596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce458ccb0afa5%3A0x6f6a3dc21c831e29!2sSector%202%2C%20Noida%2C%20Uttar%20Pradesh%20201301!5e0!3m2!1sen!2sin!4v1713881871489!5m2!1sen!2sin"
       />
       <div className="dotted-line"></div>
       <MapSection
         heading="US Head Office"
-        heading2="Address: 30 N. Gould St. Ste N,
-Sheridan ,WY 82801"
+        heading2="Address: 51p Wacker Dr, Chicago,IL 60606, United States"
         phone="+1 (307) 222 3706"
         mail="info@clinics4health.com"
-        map="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2831.210576611914!2d-106.956643!3d44.796897!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5335fa943c6fad65%3A0x293a47fe7b11d57b!2sSheridan%2C%20WY%2082801!5e0!3m2!1sen!2sus!4v1707848348292!5m2!1sen!2sus"
+        map="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1485.2315788642527!2d-87.63793034351609!3d41.88289539278035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2cb8f69432d1%3A0xad1a9cb428e4526d!2s51%20N%20Wacker%20Dr%2C%20Chicago%2C%20IL%2060606%2C%20USA!5e0!3m2!1sen!2sin!4v1713881529514!5m2!1sen!2sin"
       />
       <div className="legal-footer"></div>
     </div>

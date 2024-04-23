@@ -75,28 +75,21 @@ function Footer() {
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
             >
-              Tower 4 B 905
+              A141, Sector 02
             </li>
             <li
               data-aos="flip-up"
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
             >
-              NX ONE TECHZONE
+              Noida, India
             </li>
             <li
               data-aos="flip-up"
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
             >
-              SECTOR 4, GREATER NOIDA
-            </li>
-            <li
-              data-aos="flip-up"
-              data-aos-duration="500"
-              data-aos-easing="ease-in-out"
-            >
-              WEST 201308
+              Pin - 201301
             </li>
           </ul>
         </div>
@@ -108,28 +101,21 @@ function Footer() {
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
             >
-              30N Gould St.
+              51 p Wacker Dr
             </li>
             <li
               data-aos="flip-up"
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
             >
-              Ste N, Sheridan .
+              Chicago, IL 60606
             </li>
             <li
               data-aos="flip-up"
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
             >
-              WY 82801,
-            </li>
-            <li
-              data-aos="flip-up"
-              data-aos-duration="500"
-              data-aos-easing="ease-in-out"
-            >
-              USA
+              United States
             </li>
           </ul>
         </div>
